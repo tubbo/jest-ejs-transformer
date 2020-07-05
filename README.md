@@ -33,3 +33,9 @@ module.exports = {
   }
 }
 ```
+
+## Thanks!
+
+Special thanks to **Matt Rose** and **Roman Loktev** for the code behind
+this package. I just copied their code from [StackOverflow](https://stackoverflow.com/questions/44220227/jest-testing-with-require-modules-ejs-loader)
+and put it in a reusable module.
