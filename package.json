@@ -1,0 +1,29 @@
+{
+  "name": "jest-ejs-transformer",
+  "version": "0.1.0",
+  "description": "Use EJS templates in your Jest tests",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-recommended": "^4.1.0",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "ejs-loader": "^0.3.1"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
